@@ -26,6 +26,7 @@ def square_ints(lst):
 lst_of_ints = [1, 2, 3, 4, 5, 6]
 print(square_ints(lst_of_ints))
 
+# Sunday August 18, 2024
 # appends the sum of the last 2 integers in a list, three times, using a for loop
 def append_sum(my_list):
   if not my_list:
@@ -36,6 +37,7 @@ def append_sum(my_list):
 
 print(append_sum([1, 1, 2]))
 
+# Monday August 19, 2024
 # prints 'Oi Mate!' 10 times
 def oi_mate():
   print("Oi Mate!")
@@ -45,6 +47,7 @@ while i <= 10:
   oi_mate()
   i += 1
 
+# Tuesday August 20, 2024
 # prints the first 3 multiples of `num` and then returns the third multiple
 def first_three_multiples(num):
   count = 1
@@ -65,6 +68,7 @@ def first_three_multiples(num):
 first_three_multiples(10)
 first_three_multiples(7)
 
+# Thursday August 22, 2024
 # counts the number of words in a string that begin with a capital, or lowercase M
 my_sentence = "My gosh, what a beautiful Monday morning this is."
 
