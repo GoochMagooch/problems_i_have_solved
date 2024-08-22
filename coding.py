@@ -69,7 +69,7 @@ first_three_multiples(7)
 my_sentence = "My gosh, what a beautiful Monday morning this is."
 
 def m_word_count(string):
-  word_list = my_sentence.split(' ')
+  word_list = string.split()
   m_words = 0
   for word in word_list:
     if 'm' in word[0] or 'M' in word[0]:
