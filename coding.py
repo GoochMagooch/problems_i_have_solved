@@ -1,4 +1,6 @@
 # SCROLL AND BE REMINDED OF HOW FAR YOU'VE COME
+# THESE ARE PIECES OF CODE THAT YOU DID YOURSELF
+# PIECES OF CODE THAT CAME FROM YOU THINKING AND SOLVING
 
 # prints a descending pyramid of hashes, using nested for loops
 def pyramid():
