@@ -35,3 +35,12 @@ def append_sum(my_list):
   return my_list
 
 print(append_sum([1, 1, 2]))
+
+# prints 'Oi Mate!' 10 times
+def oi_mate():
+  print("Oi Mate!")
+
+i = 1
+while i <= 10:
+  oi_mate()
+  i += 1
