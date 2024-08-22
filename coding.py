@@ -44,3 +44,36 @@ i = 1
 while i <= 10:
   oi_mate()
   i += 1
+
+# prints the first 3 multiples of `num` and then returns the third multiple
+def first_three_multiples(num):
+  count = 1
+  i = 0
+  while count <= 3:
+    i + num
+    count += 1
+    i += num
+    print(i)
+  count_two = 1
+  j = 0
+  while count_two <= 3:
+    num + num
+    count_two += 1
+    j += num
+  return j
+
+first_three_multiples(10)
+first_three_multiples(7)
+
+# counts the number of words in a string that begin with a capital, or lowercase M
+my_sentence = "My gosh, what a beautiful Monday morning this is."
+
+def m_word_count(string):
+  word_list = my_sentence.split(' ')
+  m_words = 0
+  for word in word_list:
+    if 'm' in word[0] or 'M' in word[0]:
+      m_words += 1
+  return m_words
+
+print(m_word_count(my_sentence))
