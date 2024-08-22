@@ -25,3 +25,13 @@ def square_ints(lst):
     
 lst_of_ints = [1, 2, 3, 4, 5, 6]
 print(square_ints(lst_of_ints))
+
+# appends the sum of the last 2 integers in a list, three times, using a for loop
+def append_sum(my_list):
+  if not my_list:
+    return 0
+  for i in range(3):
+    my_list.append(my_list[-1] + my_list[-2])
+  return my_list
+
+print(append_sum([1, 1, 2]))
