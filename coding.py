@@ -85,3 +85,17 @@ def m_word_count(string):
   return m_words
 
 print(m_word_count(my_sentence))
+
+# Friday August 23, 2024
+# iterates through a string and returns the number of vowels
+vowels = ["a", "e", "i", "o", "u"]
+
+# Write your function here
+def vowel_counter(string):
+  vowel_count = 0
+  for char in string:
+    if char in vowels:
+      vowel_count += 1
+  return vowel_count
+
+print(vowel_counter("random string that should print 8"))
