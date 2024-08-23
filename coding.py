@@ -98,4 +98,4 @@ def vowel_counter(string):
       vowel_count += 1
   return vowel_count
 
-print(vowel_counter("random string that should print 8"))
+print(vowel_counter("random string that should print 7"))
