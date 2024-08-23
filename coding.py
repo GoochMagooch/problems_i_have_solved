@@ -2,7 +2,7 @@
 # THESE ARE PIECES OF CODE THAT YOU DID YOURSELF
 # PIECES OF CODE THAT CAME FROM YOU THINKING AND SOLVING, WITH NEXT TO NO REFERENCE AND NO REFERENCE ON SOME
 
-# Friday July 22, 2024
+# Monday July 22, 2024
 # prints a descending pyramid of hashes, using nested for loops
 def pyramid():
     for i in range(5, 0, -1):
@@ -12,7 +12,7 @@ def pyramid():
 
 pyramid()
 
-# Friday July 22, 2024
+# Monday July 22, 2024
 # counts down to 0 from n
 def timer(n):
     if not n:
@@ -23,7 +23,7 @@ def timer(n):
     
 timer(10)
 
-# Friday July 22, 2024
+# Monday July 22, 2024
 # takes a list of integers, singles out the evens and returns a new list of even squared integers
 def square_ints(lst):
     if not lst:
