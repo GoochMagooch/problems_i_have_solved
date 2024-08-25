@@ -110,4 +110,8 @@ green&white;,;09/15/17,   Gail Phelps   ;,;$30.52
 # Separate each parameter of each transaction
 # Strip dataset of all uneccesary white space
 # Create 3 empty lists and fill them with the customer names, sales numbers and items sold
-# 
+# Find the total sales amount
+# Separate all color threads into a separate list
+# Define a function that counts the number of times a color of thread was sold
+# Define a function that prints a sentence for each color that was sold: "Thread Shed sold {color count} threds of {color} today!"
+    # Use the .format() method to construct the sentence
