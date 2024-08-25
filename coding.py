@@ -103,7 +103,7 @@ def vowel_counter(string):
 print(vowel_counter("random string that should print 7"))
 
 # Friday August 23, 2024
-# unfinished code that is meant to run through a series of string methods on a list of poems, authors and years, eventually creating a string for each
+# unsolved code that is meant to run through a series of string methods on a list of poems, authors and years, eventually creating a string for each
 highlighted_poems = "Afterimages:Audre Lorde:1997,  The Shadow:William Carlos Williams:1915, Ecstasy:Gabriela Mistral:1925,   Georgia Dusk:Jean Toomer:1923,   Parting Before Daybreak:An Qi:2014, The Untold Want:Walt Whitman:1871, Mr. Grumpledump's Song:Shel Silverstein:2004, Angel Sound Mexico City:Carmen Boullosa:2013, In Love:Kamala Suraiyya:1965, Dream Variations:Langston Hughes:1994, Dreamwood:Adrienne Rich:1987"
 highlighted_poems_list = highlighted_poems.split(',')
 print(highlighted_poems_list)
