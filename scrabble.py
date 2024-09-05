@@ -33,3 +33,8 @@ for player, words in player_to_words.items():
     player_to_points[player] = player_points
 
 print(player_to_points)
+
+# ADDITIONAL TASKS
+# Create a function that would take in a player and a word, and add that word to the list of words they’ve played
+# Turn your update player points nested loops into a function that you can call any time a word is played
+# Make your letter_to_points dictionary able to handle lowercase inputs as well
