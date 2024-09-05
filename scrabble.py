@@ -1,3 +1,4 @@
+# First draft completed September 5, 2024
 letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 points = [1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 4, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10]
 
@@ -36,5 +37,8 @@ print(player_to_points)
 
 # ADDITIONAL TASKS
 # Create a function that would take in a player and a word, and add that word to the list of words they’ve played
+  #Completed: 
 # Turn your update player points nested loops into a function that you can call any time a word is played
+  #Completed: 
 # Make your letter_to_points dictionary able to handle lowercase inputs as well
+  #Completed: 
