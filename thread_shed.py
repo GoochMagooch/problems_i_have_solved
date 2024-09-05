@@ -114,4 +114,4 @@ green&white;,;09/15/17,   Gail Phelps   ;,;$30.52
 # Separate all color threads into a separate list
 # Define a function that counts the number of times a color of thread was sold
 # Define a function that prints a sentence for each color that was sold: "Thread Shed sold {color count} threds of {color} today!"
-    # Use the .format() method to construct the sentence
+# Use the .format() method to construct the sentence
