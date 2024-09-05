@@ -13,11 +13,23 @@ def score_word(word):
 
 player_to_words = {"player1": ["BLUE", "TENNIS", "EXIT"], "wordNerd": ["EARTH", "EYES", "MACHINE"], "Lexi Con": ["ERASER", "BELLY", "HUSKY"], "Prof Reader": ["ZAP", "COMA", "PERIOD"]}
 
+# OLD APPROACH - Turns each word into one long string and calculates points
+'''
 player_to_points = {}
 for player, words in player_to_words.items():
   joined_words = ''.join(words)
   player_points = 0
   player_points += score_word(joined_words)
   player_to_points[player] = player_points
+'''
 
+# NEW APPROACH - Calculates points for each individual word, for each player
+# Fits much better with the logic of `scrabble`
+player_to_points = {}
+for player, words in player_to_words.items():
+  player_points = 0
+  for word in words:
+    player_points += score_word(word)
+  player_to_points[player] = player_points
+  
 print(player_to_points)
