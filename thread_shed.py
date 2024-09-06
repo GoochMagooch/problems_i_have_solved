@@ -115,3 +115,9 @@ green&white;,;09/15/17,   Gail Phelps   ;,;$30.52
 # Define a function that counts the number of times a color of thread was sold
 # Define a function that prints a sentence for each color that was sold: "Thread Shed sold {color count} threds of {color} today!"
 # Use the .format() method to construct the sentence
+
+# YOUR CODE BELOW:
+daily_sales_replaced = daily_sales.replace(';,;', ';')
+daily_sales_stripped = daily_sales_replaced.strip()
+daily_sales_split = daily_sales_stripped.split(',')
+print(daily_sales_split)
