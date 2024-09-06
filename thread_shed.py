@@ -146,4 +146,11 @@ for item in transactions:
 for item in transactions:
     items_sold.append(item[2])
 
-print(items_sold)
+sales_list = []
+for item in sales:
+    sales_list.append(item.strip('$'))
+total_sales = 0
+for item in sales_list:
+    # research how to turn total sales into a float with 2 decimal places
+    total_sales += float(item)
+print(total_sales)
