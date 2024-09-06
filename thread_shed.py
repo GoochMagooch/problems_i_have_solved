@@ -156,6 +156,7 @@ for sale in stripped_sales:
     total_sales += float(sale)
 print(total_sales)
 
+# Places all threads into a separate list
 threads_list = []
 for thread in items_sold:
     threads_list.append(thread.split('&'))
