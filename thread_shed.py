@@ -154,15 +154,21 @@ total_sales = 0
 for sale in stripped_sales:
     # research how to turn total sales into a float with 2 decimal places
     total_sales += float(sale)
-print(total_sales)
 
-# Places all threads into a separate list
+# Places all threads into separate list as individual items
 threads_list = []
 for thread in items_sold:
     threads_list.append(thread.split('&'))
-print(threads_list)
+
 threads_sold = []
 for item in threads_list:
     for thread in item:
         threads_sold.append(thread)
-print(threads_sold)
+
+def thread_counter(color):
+    thread_count = 0
+    for thread in threads_sold:
+        if thread == color:
+            thread_count += 1
+    return thread_count
+
