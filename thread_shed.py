@@ -118,6 +118,6 @@ green&white;,;09/15/17,   Gail Phelps   ;,;$30.52
 
 # YOUR CODE BELOW:
 daily_sales_replaced = daily_sales.replace(';,;', ';')
-daily_sales_stripped = daily_sales_replaced.strip()
-daily_sales_split = daily_sales_stripped.split(',')
+daily_sales_split = daily_sales_replaced.split(',')
 print(daily_sales_split)
+
