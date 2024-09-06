@@ -118,6 +118,17 @@ green&white;,;09/15/17,   Gail Phelps   ;,;$30.52
 
 # YOUR CODE BELOW:
 daily_sales_replaced = daily_sales.replace(';,;', ';')
-daily_sales_split = daily_sales_replaced.split(',')
-print(daily_sales_split)
+daily_transactions = daily_sales_replaced.split(',')
 
+transactions_list = []
+for item in daily_transactions:
+    transactions_list.append(item.split(';'))
+
+
+transactions_clean = []
+for item in transactions_list:
+    datapoint_clean = []
+    for datapoint in item:
+        datapoint_clean.append(datapoint.strip())
+    transactions_clean.append(datapoint_clean)
+print(transactions_clean)
