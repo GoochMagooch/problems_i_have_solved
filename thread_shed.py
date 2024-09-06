@@ -137,20 +137,31 @@ sales = []
 items_sold = []
 
 # Gets customer names
-for item in transactions:
-    customer_names.append(item[0])
+for transaction in transactions:
+    customer_names.append(transaction[0])
 # Gets the sales for each transactions
-for item in transactions:
-    sales.append(item[1])
+for transaction in transactions:
+    sales.append(transaction[1])
 # Gets the fabrics that were sold
-for item in transactions:
-    items_sold.append(item[2])
+for transaction in transactions:
+    items_sold.append(transaction[2])
 
-sales_list = []
-for item in sales:
-    sales_list.append(item.strip('$'))
+# Finds the total amount of sales
+stripped_sales = []
+for sale in sales:
+    stripped_sales.append(sale.strip('$'))
 total_sales = 0
-for item in sales_list:
+for sale in stripped_sales:
     # research how to turn total sales into a float with 2 decimal places
-    total_sales += float(item)
+    total_sales += float(sale)
 print(total_sales)
+
+threads_list = []
+for thread in items_sold:
+    threads_list.append(thread.split('&'))
+print(threads_list)
+threads_sold = []
+for item in threads_list:
+    for thread in item:
+        threads_sold.append(thread)
+print(threads_sold)
