@@ -108,7 +108,7 @@ green&white;,;09/15/17,   Gail Phelps   ;,;$30.52
 # INSTRUCTIONS:
 # Separate all whole transactions
 # Separate each item in the new list into its own list consisting of each datapoint of each transaction
-# Strip dataset of all uneccesary white space
+# Strip the dataset in each item of all uneccesary white space
 # Create 3 empty lists and fill them with the customer names, sales numbers and items sold
 # Find the total sales amount
 # Separate all color threads into a separate list
