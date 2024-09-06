@@ -125,10 +125,25 @@ for item in daily_transactions:
     transactions_list.append(item.split(';'))
 
 
-transactions_clean = []
+transactions = []
 for item in transactions_list:
     datapoint_clean = []
     for datapoint in item:
         datapoint_clean.append(datapoint.strip())
-    transactions_clean.append(datapoint_clean)
-print(transactions_clean)
+    transactions.append(datapoint_clean)
+
+customer_names = []
+sales = []
+items_sold = []
+
+# Gets customer names
+for item in transactions:
+    customer_names.append(item[0])
+# Gets the sales for each transactions
+for item in transactions:
+    sales.append(item[1])
+# Gets the fabrics that were sold
+for item in transactions:
+    items_sold.append(item[2])
+
+print(items_sold)
