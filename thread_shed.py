@@ -171,7 +171,7 @@ def thread_counter(color):
         if thread == color:
             thread_count += 1
     # Research how to use format method
-    "Thread Shed sold {thread_count} threds of {color} today!".format(thread_count, color)
+    return "Thread Shed sold {thread_count} threds of {color} today!".format(thread_count=thread_count, color=color)
 
 test = thread_counter("blue")
 print(test)
