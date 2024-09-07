@@ -152,8 +152,10 @@ for sale in sales:
     stripped_sales.append(sale.strip('$'))
 total_sales = 0
 for sale in stripped_sales:
-    # research how to turn total sales into a float with 2 decimal places
     total_sales += float(sale)
+total_sales_rounded = round(total_sales, 2)
+# Prints the total sales of transactions
+print(f"The total sales comes to: ${total_sales_rounded}")
 
 # Places all threads into separate list as individual items
 threads_list = []
@@ -170,7 +172,6 @@ def thread_counter(color):
     for thread in threads_sold:
         if thread == color:
             thread_count += 1
-    # Research how to use format method
     return "Thread Shed sold {thread_count} threds of {color} today!".format(thread_count=thread_count, color=color)
 
 test = thread_counter("blue")
