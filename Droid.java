@@ -6,6 +6,7 @@ public class Droid {
       String name = droidName;
     }
   
+    // This method returns 'null' as the name
     public String toString() {
       return "Hello, I am a droid and my name is: " + name;
     }
@@ -18,6 +19,8 @@ public class Droid {
       Droid codey = new Droid("Codey");
       System.out.println(codey);
       codey.performTask("fighting");
+
+      // There is an issue here:
       int batteryLevel = batteryLevel - 10;
     }
   
