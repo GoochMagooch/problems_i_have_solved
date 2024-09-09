@@ -3,8 +3,8 @@ public class Droid {
     int batteryLevel = 100;
   
     public Droid(String droidName) {
-      String name = droidName;
-      int batteryLevel = 100;
+      name = droidName;
+      batteryLevel = 100;
     }
   
     // This method returns 'null' as the name
@@ -14,15 +14,13 @@ public class Droid {
   
     public void performTask(String task) {
       System.out.println(name + " is performing task: " + task);
+      batteryLevel -= 10;
     }
   
     public static void main(String[] args) {
       Droid codey = new Droid("Codey");
       System.out.println(codey);
       codey.performTask("fighting");
-
-      // There is an issue here:
-      int batteryLevel = batteryLevel - 10;
     }
   
   }
