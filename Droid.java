@@ -4,6 +4,7 @@ public class Droid {
   
     public Droid(String droidName) {
       String name = droidName;
+      int batteryLevel = 100;
     }
   
     // This method returns 'null' as the name
