@@ -1,7 +1,10 @@
 public class Basic {
 
     public static void main(String[] args) {
-	char[][] basic = {{'b', 'a', 's', 'i', 'c'}, {'b', 'a', 's', 'i', 'c'}, {'b', 'a', 's', 'i', 'c'}, {'b', 'a', 's', 'i', 'c'}, {'b', 'a', 's', 'i', 'c'}};
+	String[][] basic = {{"basic"}, {"basic"}, {"basic"}, {"basic"}, {"basic"}};
+	for (String i = 0; i < basic.length; i++) {
+	    System.out.println(basic[i]);
+	}
     }
 
 }
