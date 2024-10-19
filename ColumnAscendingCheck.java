@@ -1,3 +1,5 @@
+// Write a program that checks if columns in a 2D array are in ascending order
+
 public class ColumnAscendingCheck {
 
     public void checkColumnAscension(int[][] array) {
